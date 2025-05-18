@@ -28,5 +28,5 @@ export async function loginUser(data: { email: string, password: string }) {
   if (!passwordMatch) throw new Error('Senha incorreta');
 
   const token = jwt.sign({ userId: user.id }, JWT_SECRET, { expiresIn: '1h' });
-  return { token };
+  return { token, username:user.username};
 }
