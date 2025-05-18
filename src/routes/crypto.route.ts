@@ -82,4 +82,36 @@ router.post('/encrypt', authenticateToken, CryptoController.encrypt);
  */
 router.post('/decrypt', authenticateToken, CryptoController.decrypt);
 
+/**
+ * @swagger
+ * /crypto/verifyHash:
+ *   post:
+ *     tags: [Crypto]
+ *     summary: Verifica se um hash já foi utilizado
+ *     security:
+ *       - bearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               hash:
+ *                 type: string
+ *             required:
+ *               - hash
+ *     responses:
+ *       200:
+ *         description: Indica se o hash foi utilizado ou não
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 used:
+ *                   type: boolean
+ */
+router.post('/verifyHash', authenticateToken, CryptoController.verifyHash);
+
 export { router as cryptoRouter };

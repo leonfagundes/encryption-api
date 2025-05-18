@@ -32,3 +32,12 @@ export async function decryptMessage(encrypted: string, hash: string) {
 
   return { decrypted };
 }
+
+export async function verifyHashService (hash: string) {
+  const record = await prisma.crypto.findUnique({ where: { hash } });
+
+  if (!record) return false;
+
+  return record.used;
+
+}
