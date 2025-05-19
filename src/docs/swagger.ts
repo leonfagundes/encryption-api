@@ -6,7 +6,7 @@ const options: swaggerJSDoc.Options = {
     info: {
       title: 'API de Criptografia de César',
       version: '1.0.0',
-      description: 'API para criptografar e descriptografar mensagens usando a cifra de César',
+      description: 'API para criptografar e decriptografar mensagens usando a cifra de César',
     },
     components: {
       securitySchemes: {

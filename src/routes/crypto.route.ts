@@ -67,7 +67,7 @@ router.post('/encrypt', authenticateToken, CryptoController.encrypt);
  *               - hash
  *     responses:
  *       200:
- *         description: Mensagem original descriptografada
+ *         description: Mensagem original dscriptografada
  *         content:
  *           application/json:
  *             schema:
