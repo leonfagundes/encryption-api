@@ -38,39 +38,48 @@ O projeto tem como objetivo implementar a criptografia e decriptação de mensag
 
 ## 🖼️ Telas do Aplicativo
 
-- **Tela de Registro**  
-  📷 _[INSERIR IMAGEM DA TELA DE REGISTRO AQUI]_
+- **Tela de Registro**
+  <details>
+    <summary>Exibir Rela de Registro</summary>
+    <img src="https://github.com/leonfagundes27/Assets/blob/main/Images/APP-REGISTER.jpeg" width="220"/>
+  </details>
+  
+- **Tela de Login**
+  <details>
+    <summary>Exibir Rela de Login</summary>
+    <img src="https://github.com/leonfagundes27/Assets/blob/main/Images/APP-LOGIN.jpeg" width="220"/>
+  </details>
 
-- **Tela de Login**  
-  📷 _[INSERIR IMAGEM DA TELA DE LOGIN AQUI]_
+- **Tela de Criptografia**
+  <details>
+    <summary>Exibir Rela de Criptografia</summary>
+    <img src="https://github.com/leonfagundes27/Assets/blob/main/Images/APP-ECRPT.jpeg" width="220"/>
+  </details>
 
-- **Tela de Criptografia**  
-  📷 _[INSERIR IMAGEM DA TELA DE CRIPTOGRAFIA AQUI]_
-
-- **Tela de Decriptação**  
-  📷 _[INSERIR IMAGEM DA TELA DE DECRIPTAÇÃO AQUI]_
+- **Tela de Decriptação**
+  <details>
+    <summary>Exibir Rela de Decriptação</summary>
+    <img src="https://github.com/leonfagundes27/Assets/blob/main/Images/APP-DECRYPT.jpeg" width="220"/>
+  </details>
 
 ---
 
 ## ⚙️ Tecnologias Utilizadas
 
 ### Backend
-
-- ![Node.js](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/nodejs.svg) **Node.js**
-- ![Express](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/express.svg) **Express**
-- ![TypeScript](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/typescript.svg) **TypeScript**
-- ![Prisma](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/prisma.svg) **Prisma ORM**
-- ![MySQL](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/mysql.svg) **MySQL**
-- ![JWT](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/jwt.svg) **JWT**
-- ![Swagger](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/swagger.svg) **Swagger**
+- <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/node_js.png" width="20"/> **Node.js**
+- <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/express.png" width="20"/> **Express**
+- <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" width="20"/> **TypeScript**
+- <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Prisma.svg" width="20"/> **Prisma ORM**
+- <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mysql.png" width="20"/> **MySQL**
+- <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" width="20"/> **JWT**
+- <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/swagger.png" width="20"/> **Swagger**
 
 ### Frontend (Mobile)
-
-- ![React](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/react.svg) **React Native**
-- ![Expo](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/expo.svg) **Expo**
-- ![JavaScript](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/javascript.svg) **JavaScript**
-- ![React Navigation](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/reactrouter.svg) **React Navigation**
-- ![React Native Paper](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/react.svg) **React Native Paper**
+- <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png" width="20"/> **React Native**
+- <img src="https://images.icon-icons.com/2389/PNG/512/expo_logo_icon_145293.png" width="20"/> **Expo**
+- <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" width="20"/> **JavaScript**
+- <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png" width="20"/> **React Native Paper**
 
 ---
 
