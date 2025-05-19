@@ -17,7 +17,7 @@ export async function decrypt(req: Request, res: Response) {
     const result = await CryptoService.decryptMessage(encrypted, hash);
     res.status(200).json(result);
   } catch (error) {
-    res.status(400).json({ message: 'Erro ao descriptografar', error });
+    res.status(400).json({ message: 'Erro ao decriptografar', error });
   }
 }
 
