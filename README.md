@@ -20,7 +20,9 @@ O projeto tem como objetivo implementar a criptografia e decriptação de mensag
 
 ## 🧠 Arquitetura do Projeto
 
-> 🔧 Projeto baseado em arquitetura **MVC** com banco de dados **MySQL**.
+<img src="https://github.com/leonfagundes27/Assets/blob/main/Images/MVC-ARC-APP.png" width="600"/>
+
+---
 
 📌 **Importante**: Tanto a API quanto o banco de dados estão configurados **localmente**. Para funcionamento adequado:
 
@@ -31,8 +33,6 @@ O projeto tem como objetivo implementar a criptografia e decriptação de mensag
    JWT_SECRET="sua_chave_secreta"
    PORT=porta_da_api
    ```
-
-📷 **[INSERIR IMAGEM DA ARQUITETURA AQUI]**
 
 ---
 
